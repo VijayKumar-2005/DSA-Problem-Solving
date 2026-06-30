@@ -1,8 +1,8 @@
-package TWO_SUM;
+package REMOVE_DUPLICATES;
 import java.io.InputStreamReader;
 import java.io.BufferedReader;
 public class RemoveDuplicates{
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         InputStreamReader ir = new InputStreamReader(System.in);
         BufferedReader br = new BufferedReader(ir);
         System.out.println("Enter n:");
@@ -20,7 +20,7 @@ public class RemoveDuplicates{
             }
         }
         System.out.print("[ ");
-        for(int j=0;j<i+!;j++) {
+        for(int j=0;j<i+1;j++) {
             System.out.print(a[j]+" ");
         }
         System.out.print("]");
